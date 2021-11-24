@@ -48,15 +48,15 @@ button {
                 line-height: 40px;
                 text-align: center;
                 font-size: 13px;
-                border: 1px solid #373737;
-                color: #999;
+                border: 1px solid $tertiary-color;
+                color: $secondery-color;
                 border-radius: 100%;
                
                 transition:  .4s;
                 margin-bottom: 10px;
             &:hover {
-                    color: #b19777;
-                    border: 1px solid #b19777;
+                    color: $primary-color;
+                    border: 1px solid $primary-color;
                 }
             
         }
@@ -76,3 +76,79 @@ button {
 .section-padding {
     padding: 90px 0;
 }
+
+input[type="password"], input[type="email"], input[type="text"], input[type="file"], textarea {
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    height: auto;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-width: 0 0 1px;
+    border-style: solid;
+    display: block;
+    width: 100%;
+    line-height: 1.5em;
+    font-family: $secondery-fonts;
+    font-size: 16px;
+    font-weight: 400;
+    color: $secondery-color;
+    background-image: none;
+    border-bottom: 1px solid $tertiary-color;
+    border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+  button{
+      border: none;
+  }
+.butn-dark{
+    margin-top: 15px;
+    a {
+        font-weight: 300;
+        font-family: $primary-fonts;
+        text-transform: uppercase;
+        background: $primary-color;
+        color: $white;
+        padding: 10px 30px;
+        margin: 0;
+        position: relative;
+        font-size: 16px;
+        letter-spacing: 3px;
+        transition:.4s;
+        &:hover{
+            background-color: $tertiary-color;
+        }
+    }
+} 
+.content-wrapper {
+    position: relative;
+}
+.content-lines-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.content-lines-inner {
+    position: absolute;
+    width: 1140px;
+    left: 50%;
+    margin-left: -570px;
+    top: 0;
+    height: 100%;
+    border-left: 1px solid #323232;
+    border-right: 1px solid #323232;
+    border-bottom: 1px solid #323232;
+}
+.content-lines {
+    position: absolute;
+    left: 33.666666%;
+    right: 33.666666%;
+    height: 100%;
+    border-left: 1px solid #323232;
+    border-right: 1px solid #323232;
+}
+
+
