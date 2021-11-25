@@ -1,5 +1,5 @@
 .testimonials{
-    background: url(/assets/images/hero-bg-2.jpg) no-repeat center;
+    background: url(../images/hero-bg-2.jpg) no-repeat center;
     padding: 100px 0  10px 0;
     background-size: cover;
     background-attachment: fixed;
@@ -16,21 +16,28 @@
     .vid-area{
         position: relative;
         z-index: 1;
+    
         .play-button {
             margin-bottom: 15px;
-            background-color:$primary-color;
+            background-color:rgba(177, 151, 119, 0.569);
             width: 100px;
             height: 100px;
          display: flex;
          justify-content: center;
          align-items: center;
             border-radius: 50px;
+        
+            &:hover{
+                border: 1px solid $white;
+            }
+         
             i{
                 color: #fff;
                 font-size: 32px;
             }
 
         }
+
     }
 
         .testimonials-box {
@@ -120,4 +127,24 @@
         }
         }
     
+}
+
+
+@include mobile{
+    .testimonials{
+    
+            background-attachment: scroll;
+       
+        .testimonials-box {
+    
+            margin: 25px 0 90px 0;
+            padding: 35px 20px;
+         .testimonial-headding{
+            h4 {
+                font-size: 19px;
+             
+            }
+         }
+        }
+    }
 }

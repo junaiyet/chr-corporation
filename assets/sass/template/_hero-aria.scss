@@ -57,18 +57,37 @@
     
 }
 @include mobile {
-    .header .caption h1 {
-        font-size: 30px;
-        margin-bottom: 15px;
-        letter-spacing: 10px;
-        line-height: 1.35em;
-    }
+    .hero-aria{
+        .hero-bg {
+     
+            padding: 150px 0px 130px 0;
+            background-size: 99% 100% !important;
+        }
+        .socail-icon-aria {
+            margin-top: 372px;
+            margin-left: 15px;
+        }
+    } 
+ 
+
+
+}
+@include tablet{
     .hero-caption{
         font-size: 15px;
         margin-right: 10px;
+        
+    line-height: 1.5rem;
     }
+    .hero-hadding{
+        font-size: 30px;
+        letter-spacing: 10px;
+        line-height: 1.3em;
+      margin-bottom: 12px;
+    }
+       
     .socail-icon-aria {
-display: none;
-    }
-  
+        display: none;
+            }
+          
 }

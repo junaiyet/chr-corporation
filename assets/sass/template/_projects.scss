@@ -2,7 +2,7 @@
     .items{
         position: relative;
         overflow: hidden;
-     margin: 0 18px 30px 18px;
+          margin: 0 18px 30px 18px;
           &:hover{
               .content{
                   bottom: 0;
@@ -13,13 +13,18 @@
                     transition-timing-function: ease-in-out;
                 }
               }
-            
+            .img{
+                img{
+                    transform: scale(1.1);
+                }
+            }
           }
         .img{
             position: relative;
             overflow: hidden;
             img{
                 width: 100%;
+                transition: .4s;
             }
         }
         .content {

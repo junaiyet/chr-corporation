@@ -1,4 +1,6 @@
-
+$(document).ready(function(){
+  $('.venobox').venobox(); 
+});
 // ///fixd menu start///////
 $(window).scroll(function(){
     if($(window).scrollTop() > 80){
@@ -21,7 +23,22 @@ $('.hero-slider').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
+  responsive: [
+ 
 
+    {
+      breakpoint: 768,
+      settings: {
+        fade:true,
+        speed:500,
+        arrows:false,
+        autoplay:true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
 });
 // ///hero-slider end///////
 // ///projects-slider start///////
@@ -33,6 +50,18 @@ $('.projects-slider').slick({
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 2,
+  responsive: [
+
+    {
+      breakpoint: 680,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+  
+
+  ]
 
 });
 // ///projects-slider end///////
@@ -45,6 +74,18 @@ $('.news-slider').slick({
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 2,
+  responsive: [
+
+    {
+      breakpoint: 680,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+  
+
+  ]
 
 });
 // ///news-slider end///////
@@ -58,6 +99,7 @@ $('.testimonial-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
 
+
 });
 // testimonial-slider end////
 // testimonial-slider start////
@@ -69,6 +111,19 @@ $('.clients-slider').slick({
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 1,
+  responsive: [
+
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 
 });
 // testimonial-slider end////

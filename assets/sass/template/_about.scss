@@ -8,6 +8,10 @@
                 position: relative;
                 z-index: 2;
                 background: #272727;
+                transition: .4s;
+                &:hover{
+                    transform: scale(0.95);
+                }
             }
             &:before {
                 content: '';

@@ -75,6 +75,8 @@ button {
 }
 .section-padding {
     padding: 90px 0;
+    position: relative;
+    z-index: 1;
 }
 
 input[type="password"], input[type="email"], input[type="text"], input[type="file"], textarea {
@@ -94,7 +96,6 @@ input[type="password"], input[type="email"], input[type="text"], input[type="fil
     font-size: 16px;
     font-weight: 400;
     color: $secondery-color;
-    background-image: none;
     border-bottom: 1px solid $tertiary-color;
     border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
 }
@@ -137,16 +138,16 @@ input[type="password"], input[type="email"], input[type="text"], input[type="fil
     left: 50%;
     margin-left: -570px;
     top: 0;
-    height: 100%;
+    height: 150%;
     border-left: 1px solid #323232;
     border-right: 1px solid #323232;
-    border-bottom: 1px solid #323232;
+  
 }
 .content-lines {
     position: absolute;
     left: 33.666666%;
     right: 33.666666%;
-    height: 100%;
+    height: 150%;
     border-left: 1px solid #323232;
     border-right: 1px solid #323232;
 }
