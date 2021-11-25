@@ -20,6 +20,7 @@ $('.hero-slider').slick({
   prevArrow:'<i class="fas fa-chevron-left arrows  prevarrow"></i>',
   nextArrow:'<i class="fas fa-chevron-right arrows  nextarrow"></i>',
   infinite: true,
+  autoplay:true,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -45,7 +46,6 @@ $('.hero-slider').slick({
 $('.projects-slider').slick({
   dots: true,
   arrows:false,
-
   infinite: true,
   speed: 300,
   slidesToShow: 2,

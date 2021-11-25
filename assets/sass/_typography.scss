@@ -83,6 +83,12 @@ h6
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+h3 {
+    font-size: 16px;
+    color: $primary-color;
+    font-family: $secondery-fonts;
+    font-weight: 400;
+}
 h5{
     position: relative;
     color: $white;
