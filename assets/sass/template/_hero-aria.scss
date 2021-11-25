@@ -18,6 +18,38 @@
             height: 100%;
             background:hsla(0, 0%, 0%, 0.4);
         }
+        // .hero-corner-aria{
+        //     position: absolute;
+        //     background: red;
+        //     width: 100%;
+        //     height: 100%;
+        //     left: 0;
+        //     top: 0;
+        //     .corner{
+        //         position: relative;
+        //         .hero-corner{
+        //             position: absolute;
+        //             width: 70px;
+        //             height: 70px;
+        //             z-index: 21;
+        //             background: beige;
+        //             top: 0;
+        //             right: 0;
+                 
+        //         }
+        //         .hero-corner2 {
+        //             position: absolute;
+        //             bottom: 0;
+        //             right: 0;
+        //             bottom: 50px;
+        //             right: 50px;
+        //             background: rgb(0, 51, 99);
+        //             border-bottom: 1px solid;
+        //             border-right: 1px solid;
+        //         }
+        //     }
+           
+        // }
       
     }
     .hero-bg-two{
@@ -90,4 +122,10 @@
         display: none;
             }
           
+}
+.hero-bg-opacity{
+    background-size: 100% 100% !important;
+    padding: 190px 0px;
+    // opacity: .1;
+    background: url(../images/banner.jpg) !important ;  
 }
